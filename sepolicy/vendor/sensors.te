@@ -1,1 +1,3 @@
-allow sensors proc_tp:file r_file_perms;
+r_dir_file(sensors, proc_tp)
+r_dir_file(sensors, sensors_vendor_data_file)
+get_prop(sensors, sensors_prop)

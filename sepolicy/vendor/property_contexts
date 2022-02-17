@@ -56,3 +56,6 @@ persist.sensor.sardisable  u:object_r:sensors_prop:s0
 # Thermal
 persist.sys.thermal.       u:object_r:thermal_engine_prop:s0
 sys.thermal.               u:object_r:thermal_engine_prop:s0
+
+# Wifi 
+vendor.wlan.    u:object_r:wifi_hal_prop:s0
